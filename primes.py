@@ -6,7 +6,7 @@ def is_prime(n):
 	if n == 2:
 		return True
 	if n % 2 == 0:
-		return True
+		return False
 	
 	i = 3
 	while i <= sqrt(n):
